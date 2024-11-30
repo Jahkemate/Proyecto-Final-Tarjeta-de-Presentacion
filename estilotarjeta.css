@@ -7,7 +7,100 @@
     --colorSeparador: white;
 }
 
-*{
+body {
+    font-family: Future Earth;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    background-color: var(--colorFondo);
+}
+
+.tarjetapresentacion {
+    width: 1170px;
+    height: 440px;
+    margin-top: 222px;
+    margin-bottom: 222px;
+    margin-left: 130px;
+    margin-right: 130px;
+    display: flex;
+    background-color: var(--colorTarjeta);
+    color: var(--color4);
+    border: 5px solid black;
+    max-width: 800px;
+}
+
+.ladoizquierdo {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+.ladoizquierdo .perfil {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ladoizquierdo h2 {
+    font-weight: lighter;
+    font-size: 32px;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: var(--color4);
+}
+
+.ladoderecho {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.ladoderecho h3 {
+    font-weight: lighter;
+    font-size: 34px;
+    margin-right: 120px;
+    margin-top: 0px;
+    margin-bottom: 175px;
+    color: var(--color4);
+}
+
+.redes p {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +117,8 @@ body{
     background-color: var(--colorFondo);
     height: auto;
 }
-
+main{
+    margin-top: 162px;
 .tarjetapresentacion{
     width: 1179px;
     height: 579px;
@@ -39,9 +133,12 @@ body{
     .tarjetapresentacion-contenido{
         h2{
             color: var(--color4);
-            font-size: 32px;
+            font-size: 42px;
             font-weight: lighter;
-            margin-bottom: 12px;
+            margin-top: 400px;
+            margin-bottom: 83px;
+            margin-left: 34px;
+            margin-right: 589px;
             line-height: 1.5;
         }
 
@@ -57,15 +154,19 @@ body{
             font-size: 18px;
             font-weight: lighter;
             line-height: 1.8;
-            /* font-family: 'Comic'; */
         }
+       
     }
-
-    .imagenPerfil{
-        img{
-            width: 240px;
-            border-radius: 5px;
-            margin-top: 50px;
-        }
+   }
+   .imagenPerfil{
+    img{
+        width: 293px;
+        height: 309px;
+        border-radius: 140.5px;
+        margin-top: 61px;
+        margin-bottom: 209px;
+        margin-left: 147px;
+        margin-right: 739px;
     }
 }
+} */
