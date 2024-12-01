@@ -47,11 +47,11 @@ body {
 }
 
 .ladoizquierdo h2 {
-    font-family: Comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     text-align: center; 
     font-weight: lighter;
     font-size: 40px;
-    line-height: 1.5;
+    line-height: 1;
     margin: 5px;
     margin-left: 5px;
     padding: 5px;
@@ -84,7 +84,7 @@ hr{
 }
 /* Redes sociales */
 .redes {
-  margin: 20px;
+    margin: 20px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ hr{
 
 .fila-red p {
     align-items: center;
-    font-family: Amaranth;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0; /* Elimina márgenes */
     font-size: 32px;
     color: white;
@@ -131,4 +131,56 @@ hr{
 .contacto:hover{
     background-color: var(--color4);
     color: var(--colorBoton);
+}
+
+/* --- Media Query para hacer Responsive --- */
+@media (max-width: 768px) {
+    .tarjetapresentacion {
+        flex-direction: column; /* Cambia a disposición vertical */
+        height: auto;
+        align-items: center;
+    }
+
+    .ladoizquierdo .perfil {
+        width: 250px;
+        height: 250px;
+    }
+
+    .ladoizquierdo h2 {
+        font-family: Future Earth;
+        font-size: 30px;
+    }
+
+    .ladoderecho h3 {
+        font-size: 34px;
+    }
+
+    .contacto {
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    hr {
+        width: 90%;
+    }
+
+    .contacto {
+        background-color: var(--colorBoton);
+        color: black;
+        border-radius: 150px;
+        border: 1px;
+        font-family: Future Earth;
+        font-size: 30px;
+        width: 350px;
+        height: 75px;
+        cursor: pointer;
+        align-self: center;
+        margin: 2px;
+        padding: 2px;
+    }
+    .contacto:hover{
+        background-color: var(--color4);
+        color: var(--colorBoton);
+    }
 }
