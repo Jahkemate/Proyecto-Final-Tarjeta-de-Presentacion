@@ -38,20 +38,25 @@ body {
 }
 
 .ladoizquierdo .perfil {
-    width: 250px;
-    height: 250px;
+    align-items: center;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 5px;
+    display: flexbox;
 }
 
 .ladoizquierdo h2 {
-    text-align: center;
+    font-family: Comic Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
     font-weight: lighter;
-    font-size: 30px;
-    line-height: 1;
-    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 1.5;
+    margin: 5px;
+    margin-left: 5px;
+    padding: 5px;
     color: var(--color4);
+    display: flex;
 }
 
 .ladoderecho {
@@ -71,7 +76,12 @@ body {
     color: var(--color4);
     padding: 5px;
 }
-
+hr{
+    height: 3px;               
+    width: 90%;               
+    background-color: white;  
+    border-radius: 3px;
+}
 /* Redes sociales */
 .redes {
   margin: 20px;
@@ -103,7 +113,7 @@ body {
 }
 
 
-/* Boton contactamae */
+/* Boton contactame */
 .contacto {
     background-color: var(--colorBoton);
     color: black;
@@ -120,99 +130,5 @@ body {
 }
 .contacto:hover{
     background-color: var(--color4);
+    color: var(--colorBoton);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-family: Future Earth; 
-    scroll-behavior: smooth;
-    animation-duration: 10s;
-    position: relative;
-}
-
-body{
-    background-color: var(--colorFondo);
-    height: auto;
-}
-main{
-    margin-top: 162px;
-.tarjetapresentacion{
-    width: 1179px;
-    height: 579px;
-    background-color: var(--colorTarjeta);
-    margin: 62px auto 25px auto;
-    padding: 30px;
-    display: flex;
-    gap: 23px;
-    box-shadow: 5px 4px 6px 1px rgba(0, 0, 0, 0.4);
-    border: 5px solid black;
-
-    .tarjetapresentacion-contenido{
-        h2{
-            color: var(--color4);
-            font-size: 42px;
-            font-weight: lighter;
-            margin-top: 400px;
-            margin-bottom: 83px;
-            margin-left: 34px;
-            margin-right: 589px;
-            line-height: 1.5;
-        }
-
-        hr{
-            background-color: var(--colorSeparador);
-            height: 5px;
-            border: none;
-            border-radius: 5px;
-            margin-bottom: 12px;
-        }
-
-        p{
-            font-size: 18px;
-            font-weight: lighter;
-            line-height: 1.8;
-        }
-       
-    }
-   }
-   .imagenPerfil{
-    img{
-        width: 293px;
-        height: 309px;
-        border-radius: 140.5px;
-        margin-top: 61px;
-        margin-bottom: 209px;
-        margin-left: 147px;
-        margin-right: 739px;
-    }
-}
-} */
