@@ -27,7 +27,7 @@ body {
     display: flex;
     background-color: var(--colorTarjeta);
     color: var(--color4);
-    border: 5px solid black;
+    border: 5px solid lightblue;
     max-width: 800px;
 }
 
@@ -133,6 +133,25 @@ hr{
     color: var(--colorBoton);
 }
 
+.mododark{
+    background-color: var(--colorBoton);
+    color: black;
+    border-radius: 150px;
+    border: 1px;
+    font-family: Future Earth;
+    font-size: 20px;
+    width: 150px;
+    height: 55px;
+    cursor: pointer;
+    align-self: center;
+    margin: 2px;
+    padding: 2px;
+}
+.mododark:hover{
+    background-color: var(--color4);
+    color: var(--colorBoton);
+}
+
 /* --- Media Query para hacer Responsive --- */
 @media (max-width: 768px) {
     .tarjetapresentacion {
@@ -183,4 +202,35 @@ hr{
         background-color: var(--color4);
         color: var(--colorBoton);
     }
+
+    .mododark{
+        background-color: var(--colorBoton);
+        color: black;
+        border-radius: 150px;
+        border: 1px;
+        font-family: Future Earth;
+        font-size: 20px;
+        width: 160px;
+        height: 45px;
+        cursor: pointer;
+        align-self: center;
+        margin: 2px;
+        padding: 2px;
+    }
+    .mododark:hover{
+        background-color: var(--color4);
+        color: var(--colorBoton);
+    }
+}
+/* Modo Dark */
+.modo-dark__tarjetapresentacion{
+    background-color: black;
+}
+.modo-dark__body{
+    background-color: rgba(0, 0, 0, 0.732);
+}
+
+.modo-dark__tarjeta{
+    background-color: rgba(26, 25, 25, 0.587);
+    color: white;
 }
