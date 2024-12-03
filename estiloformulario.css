@@ -1,0 +1,40 @@
+:root{
+    --colorTarjeta:#03045E;
+    --colorSecundario:#0077B6;
+    --colorBoton: #00B4D8;
+    --colorFondo:#CAF0F8;
+    --color4:#90E0EF;
+    --colorSeparador: white;
+}
+
+h2{
+    font-family: Future Earth;
+    font-size: 40px;
+}
+
+body{
+    background-color: var(--color4);
+}
+
+hr{
+    height: 5px;               
+    width: 100%;               
+    background-color: black;  
+    border-radius: 3px;
+}
+
+.form-floating{
+    margin-top: 25px;
+}
+
+.row {
+    font-family: Future Earth;
+font-size: 25px;
+}
+.botones{
+    font-family: Future Earth;
+    
+    .btn{
+        color: black;
+    }
+}
